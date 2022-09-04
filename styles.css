@@ -168,6 +168,9 @@ h1 {
   .price {
     border-radius: 15px;
   }
+  .contacttext {
+    margin: 0 2rem;
+  }
 }
 
 
