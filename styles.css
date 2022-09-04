@@ -150,7 +150,7 @@ h1 {
 
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 0.3rem;
+    font-size: 0.6rem;
   }
   .info {
     flex-direction: column;
@@ -164,6 +164,9 @@ h1 {
   }
   .contact {
     flex-direction: column;
+  }
+  .price {
+    border-radius: 15px;
   }
 }
 
