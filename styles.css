@@ -2,6 +2,7 @@
 
 html {
   background-color: #EAF6F6;
+  font-family: 'Lato', sans-serif;
 }
 body {
   margin: 0;
@@ -72,6 +73,29 @@ nav ul li {
   display: flex;
   flex-direction: row;
   padding: 0 5rem;
+}
+.infoimg {
+  height: 31.25rem;
+  margin: 3rem 0;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+}
+.infotext {
+  padding: 2rem 5rem;
+  font-weight: 400;
+}
+.infotext p {
+  font-size: 1.3rem;
+}
+h1 {
+  font-size: 1.9rem;
+  font-weight: 700;
 }
 .Pricing {
   display: flex;
@@ -153,7 +177,7 @@ nav ul li {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
   margin: auto;
 }
