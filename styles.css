@@ -149,11 +149,18 @@ h1 {
 
 
 @media only screen and (max-width: 1300px) {
+  html {
+    font-size: 0.3rem;
+  }
   .info {
     flex-direction: column;
+    padding: 0 0;
   }
   .services {
     color: white;
+  }
+  .dots {
+    display: none;
   }
 }
 
