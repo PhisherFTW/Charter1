@@ -148,7 +148,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 768px) {
   html {
     font-size: 0.3rem;
   }
@@ -161,6 +161,9 @@ h1 {
   }
   .dots {
     display: none;
+  }
+  .contact {
+    flex-direction: column;
   }
 }
 
