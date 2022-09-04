@@ -8,12 +8,21 @@ body {
   margin: 0;
 }
 .socials {
+  display: flex;
   background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.socials a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  margin: 1rem 3rem;
 }
 .socialsimg {
   width: 1.5rem;
-  color: white;
-  background-color: white;
+  margin: 0 1rem;
 }
 header {
   display: flex;
@@ -85,6 +94,10 @@ nav ul li {
   font-weight: 400;
   justify-content: center;
   align-items: center;
+  background-image: url(images/boatpicture2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 .infotext {
   padding: 2rem 5rem;
@@ -116,10 +129,33 @@ h1 {
   background-color: white;
 }
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contacttext {
+  display: flex;
+  justify-content: center;
+}
+.contactsections {
+  margin: 3rem;
+}
+.contactimg {
+  height: 2rem;
+}
 
 
-
-
+@media only screen and (max-width: 1300px) {
+  .info {
+    flex-direction: column;
+  }
+  .services {
+    color: white;
+  }
+}
 
 
 
