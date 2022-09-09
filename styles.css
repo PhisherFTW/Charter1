@@ -117,13 +117,22 @@ h1 {
   align-items: center;
   background-color: #eceaff;
 }
+.Pricing1 {
+  display: flex;
+  flex-direction: row;
+}
 .price {
   display: flex;
   background-color: white;
   border-radius: 25px;
   flex-direction: column;
-  width: 15rem;
+  width: 18rem;
   align-items: center;
+  margin: 2.5rem;
+  padding: 1rem;
+}
+.priceimg {
+  height: 20rem;
 }
 .white {
   background-color: white;
@@ -151,6 +160,9 @@ h1 {
 @media only screen and (max-width: 768px) {
   html {
     font-size: 0.6rem;
+  }
+  .socials a {
+    margin: 0.5rem 1.4rem;
   }
   .info {
     flex-direction: column;
