@@ -3,9 +3,13 @@
 html {
   background-color: #EAF6F6;
   font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
+}
+.images{ 
+  border-radius: 1.5rem;
 }
 .socials {
   display: flex;
@@ -75,7 +79,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  padding-right: 10px;
+  margin-right: 10px;
   text-align: center;
 }
 .info {
@@ -182,6 +186,12 @@ h1 {
   }
   .contacttext {
     margin: 0 2rem;
+  }
+  .Contact h1 {
+    margin-top: 1rem;
+  }
+  .contactsections {
+    margin: 1rem;
   }
 }
 
