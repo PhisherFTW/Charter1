@@ -90,6 +90,8 @@ nav ul li {
 .infoimg {
   height: 31.25rem;
   margin: 3rem 0;
+  object-fit: scale-down;
+  width: 100%;
   border-radius: 0.5rem;
 }
 .services {
@@ -125,6 +127,7 @@ h1 {
 .Pricing1 {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .price {
   display: flex;
@@ -163,7 +166,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1290px) {
   html {
     font-size: 0.6rem;
   }
@@ -196,8 +199,11 @@ h1 {
     margin: 1rem;
   }
 }
-
-
+@media only screen and (max-width: 510px) {
+  .priceimg {
+    display: none;
+  }
+}
 
 
 
